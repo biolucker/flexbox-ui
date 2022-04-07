@@ -1,0 +1,91 @@
+:root {
+  /* Colors */
+  --white: #ffffff;
+  --black: #000000;
+  --text-input-field: #f7f7f7;
+  --very-light-pink: #c7c7c7;
+  --dark: #232830;
+  --hospital-green: #acd9b2;
+  /* Text Size 18 16 14 */
+  --lg: 18px;
+  --md: 16px;
+  --sm: 14px;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo {
+  align-self: center;
+}
+.title {
+  font-size: var(--lg);
+  font-weight: bold;
+  align-self: center;
+}
+.text {
+  font-size: var(--md);
+  color: var(--dark);
+  text-align: center;
+  flex-wrap: nowrap;
+}
+.form label {
+  font-size: var(--sm);
+  font-weight: bold;
+  margin: 8px;
+}
+.form .mail {
+  font-size: var(--sm);
+  background-color: var(--text-input-field);
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  margin: 8px;
+}
+.form .password {
+  font-size: var(--sm);
+  background-color: var(--text-input-field);
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  margin: 8px;
+}
+.password-recovery {
+  width: calc(100%-8px);
+}
+.button {
+  border: none;
+  color: var(--white);
+  background-color: var(--hospital-green);
+  border-radius: 4px;
+  font-size: var(--lg);
+  padding: 8px;
+}
+.button2 {
+  color: var(--hospital-green);
+  background-color: var(--white);
+  border: solid 1px var(--hospital-green);
+  border-radius: 4px;
+  font-size: var(--lg);
+  padding: 8px;
+}
+.link {
+  text-align: center;
+  text-decoration: none;
+  color: var(--hospital-green);
+  margin-bottom: 64px;
+  font-size: var(--sm);
+}

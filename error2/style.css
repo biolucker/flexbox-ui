@@ -1,0 +1,100 @@
+:root {
+  /* Colors */
+  --white: #ffffff;
+  --black: #000000;
+  --text-input-field: #f7f7f7;
+  --light-gray: #e7e7e7;
+  --very-light-pink: #c7c7c7;
+  --dark: #232830;
+  --hospital-green: #acd9b2;
+  --pink: #d86a6a;
+  --light-pink: #fff9f9;
+  /* Text Size 18 16 14 */
+  --lg: 18px;
+  --md: 16px;
+  --sm: 14px;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo {
+  align-self: center;
+  width: 271px;
+  gap: 10px;
+}
+.title {
+  font-size: var(--lg);
+  font-weight: bold;
+  align-self: center;
+}
+.text {
+  font-size: var(--md);
+  color: var(--very-light-pink);
+  text-align: center;
+}
+.form label {
+  font-size: var(--sm);
+  font-weight: bold;
+  color: var(--pink);
+  margin: 8px;
+}
+.form .passlabel {
+  font-size: var(--sm);
+  font-weight: bold;
+  color: var(--black);
+  margin: 8px;
+}
+.form .mail {
+  font-size: var(--sm);
+  background-color: var(--light-pink);
+  padding: 4px;
+  border: solid 1px var(--pink);
+  border-radius: 4px;
+  margin: 8px;
+}
+.form .password {
+  font-size: var(--sm);
+  background-color: var(--light-gray);
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  margin: 8px;
+}
+
+.button {
+  border: none;
+  color: var(--white);
+  background-color: var(--light-gray);
+  border-radius: 4px;
+  font-size: var(--lg);
+  padding: 8px;
+}
+.button2 {
+  color: var(--hospital-green);
+  background-color: var(--white);
+  border: solid 1px var(--hospital-green);
+  border-radius: 4px;
+  font-size: var(--lg);
+  padding: 8px;
+}
+.link {
+  text-align: center;
+  text-decoration: none;
+  color: var(--hospital-green);
+  margin-bottom: 64px;
+  font-size: var(--sm);
+}
