@@ -49,6 +49,7 @@ body {
 }
 .form .mail {
   font-size: var(--sm);
+  width: 100%;
   background-color: var(--text-input-field);
   padding: 4px;
   border: none;
@@ -57,6 +58,7 @@ body {
 }
 .form .password {
   font-size: var(--sm);
+  width: 100%;
   background-color: var(--text-input-field);
   padding: 4px;
   border: none;
