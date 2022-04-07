@@ -44,29 +44,33 @@ body {
   color: var(--very-light-pink);
   text-align: center;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .form label {
   font-size: var(--sm);
   font-weight: bold;
-  color: var(--pink);
-  margin: 8px;
+  color: var(--black);
+  /* margin-bottom: 8px; */
 }
-.form .mail {
+
+.form input {
   font-size: var(--sm);
-  width: 100%;
+  /* width: 100%; */
   background-color: var(--light-pink);
   padding: 4px;
-  border: solid 1px var(--pink);
+  border: solid 1px var(--dark);
   border-radius: 4px;
-  margin: 8px;
+  /* margin: 8px; */
 }
-.form .password {
-  font-size: var(--sm);
-  width: 100%;
-  background-color: var(--light-pink);
-  padding: 4px;
-  border: solid 1px var(--pink);
-  border-radius: 4px;
-  margin: 8px;
+
+input:invalid {
+  border-color: var(--pink);
+  background: var(--light-pink);
 }
 .password-recovery {
   width: calc(100%-8px);
