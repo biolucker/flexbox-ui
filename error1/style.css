@@ -52,6 +52,7 @@ body {
 }
 .form .mail {
   font-size: var(--sm);
+  width: 100%;
   background-color: var(--light-pink);
   padding: 4px;
   border: solid 1px var(--pink);
@@ -60,6 +61,7 @@ body {
 }
 .form .password {
   font-size: var(--sm);
+  width: 100%;
   background-color: var(--light-pink);
   padding: 4px;
   border: solid 1px var(--pink);
